@@ -1,1 +1,2 @@
-# Hello
+#github and git
+Repository 
