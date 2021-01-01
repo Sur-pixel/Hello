@@ -1,19 +1,32 @@
 #include <iostream>
 
 
+namespace  orange{
 
+
+void Print() {
+
+
+std::cout<<"Print FunctionCalled"<<std::endl;
+
+
+
+
+}
+
+
+
+
+}
 
 namespace hello{
 
 
 
+void callPrint() {
 
 
-int a;
-
-
-
-
+orange::Print();
 
 
 
@@ -21,18 +34,27 @@ int a;
 
 }
 
+
+
+
+}
+
+
+void Print() {
+
+std::cout<<"Other Print Function"<<std::endl;
+
+
+}
+
+
+
 int main() {
 
 
+hello::callPrint();
+Print();
 
 
-
-std::cout<<"Hello World"<<std::endl;
-
-a =12;
-
-
-
-
-return 0;
+std::cin.get();
 }
