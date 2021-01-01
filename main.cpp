@@ -3,22 +3,14 @@
 
 
 
-
-
-namespace orange{
-
-
- void  hello() {
-
-
-
- std::cout<<"Hello World"<<std::endl;
+namespace hello{
 
 
 
 
 
-}
+
+
 
 
 
@@ -27,10 +19,6 @@ namespace orange{
 
 
 }
-
-
-
-
 
 int main() {
 
@@ -38,11 +26,11 @@ int main() {
 
 
 
-orange::hello();
+std::cout<<"Hello World"<<std::endl;
 
 
 
 
- return 0;
 
+return 0;
 }
