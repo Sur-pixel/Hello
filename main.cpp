@@ -1,21 +1,48 @@
 #include <iostream>
-#include <cmath>
+
+
+
+
+namespace hi{
+
+
+
+
+int a;
+
+
+
+void Print() {
+
+
+std::cout<<"Hello World"<<std::endl;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 int main() {
 
 
+std::cout<<&(hi::a)<<std::endl;
 
 
 
-
-
-std::cout<<sqrt(500)<<std::endl;
-
-
-
-
-
-
-
-std::cin.get();
 }
