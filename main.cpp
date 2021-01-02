@@ -1,31 +1,5 @@
 #include <iostream>
-
-
-
-
-
-
-namespace Mangoes{
-
-
-
-
-
-void printMangoes() {
-
-
- std::cout<<"I love mangoes"<<std::endl;
-
-
-}
-
-
-
-
-
-}
-
-
+#include <cmath>
 
 int main() {
 
@@ -33,12 +7,15 @@ int main() {
 
 
 
-Mangoes::printMangoes();
+
+
+std::cout<<sqrt(500)<<std::endl;
+
+
 
 
 
 
 
 std::cin.get();
-
 }
